@@ -1,0 +1,33 @@
+Title: Eye-Controlled Mouse using Python and OpenCV
+
+Description:
+This repository contains Python code that allows you to control your computer's mouse cursor using your eye movements. The code utilizes computer vision and machine learning techniques to detect and track facial landmarks, specifically the eye and eyebrow positions, in real-time through a webcam. The eye movements are then used to control the mouse cursor and perform mouse click actions.
+
+Key Features:
+
+Real-time eye and eyebrow landmark detection using the Mediapipe library.
+Integration with PyAutoGUI library for mouse cursor control.
+User-friendly and interactive interface with live webcam feed and landmark points visualization.
+Automatic mouse click action when the user's eye is detected as closed based on eyebrow movement.
+Easy-to-understand Python code with explanatory comments.
+Requirements:
+
+Python 3.x
+OpenCV library (cv2)
+Mediapipe library
+PyAutoGUI library
+Webcam (built-in or external)
+Instructions:
+
+Install the required libraries using pip or any package manager.
+Run the Python script.
+A window will open displaying your webcam feed, with green circles around the detected eye landmark points and cyan circles around the eyebrow landmark points.
+Move your eye to control the mouse cursor.
+Close your eye (based on eyebrow movement) to perform a mouse click action.
+Note: The code is for educational purposes and may require adjustments to work optimally for individual setups. Feel free to contribute and improve the code for better performance and usability.
+
+Have fun exploring eye-controlled mouse interactions with this Python code! If you find any issues or have suggestions, please create a pull request or open an issue on GitHub. Happy coding!
+
+
+
+
